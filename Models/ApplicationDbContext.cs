@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.DependencyInjection;
+using WorkingWithVisualStudio;
 //using WorkingWithVisualStudio;
 
 namespace SportsStore.Models
@@ -13,6 +14,14 @@ namespace SportsStore.Models
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
+    }
+    public class ApplicationDbContextFactory
+            : IDesignTimeDbContextFactory<ApplicationDbContext>
+    {
+
+        public ApplicationDbContext CreateDbContext(string[] args) =>
+            Program.BuildWebHost(args).Services
+                .GetRequiredService<ApplicationDbContext>();
     }
 }
 
