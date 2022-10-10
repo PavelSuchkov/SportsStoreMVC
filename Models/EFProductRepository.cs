@@ -15,14 +15,14 @@ namespace SportsStore.Models
 
         public void SaveProduct(Product product)
         {
-            if(product.ProductID == 0)
+            if (product.ProductID == 0)
             {
                 context.Products.Add(product);
             }
             else
             {
                 Product dbEntry = context.Products.FirstOrDefault(p => p.ProductID == product.ProductID);
-                if(dbEntry != null)
+                if (dbEntry != null)
                 {
                     dbEntry.Name = product.Name;
                     dbEntry.Description = product.Description;
@@ -31,6 +31,16 @@ namespace SportsStore.Models
                 }
             }
             context.SaveChanges();
+        }
+        public Product DeleteProduct(int productId)
+        {
+            Product dbEntry = context.Products.FirstOrDefault(p => p.ProductID == productId);
+            if (dbEntry != null)
+            {
+                context.Products.Remove(dbEntry);
+                context.SaveChanges();
+            }
+            return dbEntry;
         }
 
     }
