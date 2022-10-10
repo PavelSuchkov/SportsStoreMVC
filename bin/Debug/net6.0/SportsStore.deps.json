@@ -16,7 +16,10 @@
           "System.Data.SqlClient": "4.8.3",
           "System.Linq": "4.3.0",
           "bootstrap": "5.2.0",
-          "font-awesome": "4.6.1"
+          "font-awesome": "4.6.1",
+          "jQuery": "3.2.1",
+          "jQuery.Validation": "1.17.0",
+          "jQuery.Validation.Unobtrusive": "2.0.20505"
         },
         "runtime": {
           "SportsStore.dll": {}
@@ -64,6 +67,17 @@
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
           }
+        }
+      },
+      "jQuery/3.2.1": {},
+      "jQuery.Validation/1.17.0": {
+        "dependencies": {
+          "jQuery": "3.2.1"
+        }
+      },
+      "jQuery.Validation.Unobtrusive/2.0.20505": {
+        "dependencies": {
+          "Microsoft.jQuery.Unobtrusive.Validation": "2.0.20505"
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -343,6 +357,11 @@
             "assemblyVersion": "6.21.0.0",
             "fileVersion": "6.21.0.30701"
           }
+        }
+      },
+      "Microsoft.jQuery.Unobtrusive.Validation/2.0.20505": {
+        "dependencies": {
+          "jQuery.Validation": "1.17.0"
         }
       },
       "Microsoft.NETCore.Platforms/5.0.0": {},
@@ -745,6 +764,27 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
+    "jQuery/3.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sc4jRcsItNXUoNmnPtD9DEnHCy5d4u0GOdDSKYL+b7PKtwajKO1YBJA55241G2M9KRCwSbtxV4ti3gb4n/pIew==",
+      "path": "jquery/3.2.1",
+      "hashPath": "jquery.3.2.1.nupkg.sha512"
+    },
+    "jQuery.Validation/1.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pzCKw7J9XugWLBCQCPa2qBVS57vbe3OkuEGgbMGWf+66Tyjanyy6qwC9/6Z+tt2PMtkQqNt+BexNDVkTnE8egw==",
+      "path": "jquery.validation/1.17.0",
+      "hashPath": "jquery.validation.1.17.0.nupkg.sha512"
+    },
+    "jQuery.Validation.Unobtrusive/2.0.20505": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XN/MxuLx3FaPZVuoaQbxAoghiX5gOEPjfDQRH4ar40GIpqDWMx/LBUwVBZrmucPbv7zIZTfQOBWIdKJ+08+4cg==",
+      "path": "jquery.validation.unobtrusive/2.0.20505",
+      "hashPath": "jquery.validation.unobtrusive.2.0.20505.nupkg.sha512"
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
       "serviceable": true,
@@ -933,6 +973,13 @@
       "sha512": "sha512-AAEHZvZyb597a+QJSmtxH3n2P1nIJGpZ4Q89GTenknRx6T6zyfzf592yW/jA5e8EHN4tNMjjXHQaYWEq5+L05w==",
       "path": "microsoft.identitymodel.tokens/6.21.0",
       "hashPath": "microsoft.identitymodel.tokens.6.21.0.nupkg.sha512"
+    },
+    "Microsoft.jQuery.Unobtrusive.Validation/2.0.20505": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NYoxu6axbNMc2cYwcScFeA1M6qIyZbS6P0tFnF8JRN5us2tmsPB4qsD6So0XA8CyAI/g/TWvAZSedR/VhTWR9Q==",
+      "path": "microsoft.jquery.unobtrusive.validation/2.0.20505",
+      "hashPath": "microsoft.jquery.unobtrusive.validation.2.0.20505.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
