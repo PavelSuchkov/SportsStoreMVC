@@ -11,7 +11,7 @@
     "SportsStore": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:54847",
+      "applicationUrl": "http://localhost:15715",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
