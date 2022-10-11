@@ -76,3 +76,8 @@
 /Users/pavelsuchkou/Projects/SportsStore/SportsStore/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/pavelsuchkou/Projects/SportsStore/SportsStore/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
 /Users/pavelsuchkou/Projects/SportsStore/SportsStore/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/pavelsuchkou/Projects/SportsStore/SportsStore/obj/Debug/net6.0/staticwebassets/msbuild.SportsStore.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/pavelsuchkou/Projects/SportsStore/SportsStore/obj/Debug/net6.0/staticwebassets/msbuild.build.SportsStore.props
+/Users/pavelsuchkou/Projects/SportsStore/SportsStore/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.SportsStore.props
+/Users/pavelsuchkou/Projects/SportsStore/SportsStore/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.SportsStore.props
+/Users/pavelsuchkou/Projects/SportsStore/SportsStore/obj/Debug/net6.0/staticwebassets.pack.json
